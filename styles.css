@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    color: chartreuse;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.topbar {
+    margin-left: 15%;
+    width: 70%;
+    height: 75px;
+    /* background-color: rgb(29, 35, 35); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    height: 50px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Ubuntu Mono', monospace;
+    color: chartreuse;
+    text-shadow: 0 0 1em chartreuse, 0 0 0.2em chartreuse;
+}
+
+.end {
+    height: 50px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Ubuntu Mono', monospace;
+    color: chartreuse;
+    text-shadow: 0 0 1em chartreuse, 0 0 0.2em chartreuse;
+}
+
+.hr1 {
+    margin-left: 15%;
+    margin-bottom: auto;
+    width: 70%;
+    border-bottom: 2px white solid;
+}
+
+.title {
+    margin-top: 30px;
+    /* background-color: rgb(29, 35, 35); */
+    margin-left: 15%;
+    width: 70%;
+    height: 90px;
+    display: flex;
+}
+
+.blog {
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 500%;
+    font-family: 'Ubuntu Mono', monospace;
+    color: chartreuse;
+    border-bottom: 2px white solid;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blogs {
+    margin-top: 45px;
+    /* background-color: rgb(29, 35, 35); */
+    width: 70%;
+    /* height: 100vh; */
+    margin-left: 15%;
+}
+
+.blog_title {
+    font-size: 200%;
+}
+
+.blog_description {
+    font-size: 150%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.hr2 {
+    margin-top: 40px;
+    border-bottom: 2px white solid;
+}
+
+.bottombar {
+    /* background-color: rgb(29, 35, 35); */
+    width: 70%;
+    height: 50px;
+    line-height: 50px;
+    align-items: center;
+    margin-left: 15%;
+    font-size: 140%;
+    display: inline-flex;
+    justify-content: space-between;
+    filter: drop-shadow(0 0 0.2rem chartreuse);
+}
+
+span {
+    font-size: 140%;
+}
+
+img {
+    vertical-align: middle;
+    height: 100%;
+    width: auto;
+    transform: rotate(deg);
+    transition: transform 1s ease-in;
+
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
